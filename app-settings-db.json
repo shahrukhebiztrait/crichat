@@ -1,0 +1,61 @@
+[{
+    "name": "privacy_link",
+    "value": "https://strolink.com/privacy_link"
+  }, {
+    "name": "app_name",
+    "value": "WhatsUp"
+  }, {
+    "name": "giphy_key",
+    "value": "put your giphy key here"
+  }, {
+    "name": "sms_fb_verification",
+    "value": "off"
+  }, {
+    "name": "video_ads_app_id",
+    "value": "put your Video app id of admob"
+  }, {
+    "name": "video_ads_status",
+    "value": "off"
+  }, {
+    "name": "video_ads_unit_id",
+    "value": "put your Video unit id of admob"
+  }, {
+    "name": "publisher_id",
+    "value": "here your admob publisher  id "
+  }, {
+    "name": "app_version",
+    "value": "1"
+  }, {
+    "name": "sms_verification",
+    "value": "on"
+  }, {
+    "name": "sms_authentication_key",
+    "value": "put your SMS provider authentication key here"
+  }, {
+    "name": "interstitial_ads_status",
+    "value": "off"
+  }, {
+    "name": "interstitial_ads_unit_id",
+    "value": "put your Interstitial unit id of admob"
+  }, {
+    "name": "banner_ads_status",
+    "value": "off"
+  }, {
+    "name": "banner_ads_unit_id",
+    "value": "put your unit id of admob"
+  }, {
+    "name": "account_sid",
+    "value": "put your SMS provider account SID here"
+  }, {
+    "name": "phone_number",
+    "value": "put your SMS provider phone number here"
+  }, {
+    "name": "client_token",
+    "value": "put your acount kit client token  here"
+  }, {
+    "name": "google_api_key",
+    "value": "put your server google  key  here"
+  }, {
+    "name": "topic",
+    "value": "put your package name  here"
+  }]
