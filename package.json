@@ -4,7 +4,7 @@
   "description": "restfull whatscloneAPI",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "nodemon ./bin/www",
     "test": "grunt test"
   },
   "main": "./bin/www",

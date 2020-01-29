@@ -76,6 +76,8 @@ router.post('/admin/login', (req, res) => {
 
 // route for user's dashboard
 router.get('/admin/dashboard', (req, res) => {
+  console.log("call dashBoard");
+  
   if (req.session.user && req.cookies.user_sid) {
 
     async.parallel({
@@ -159,7 +161,8 @@ router.get('/admin/dashboard', (req, res) => {
 
         if (err)
           throw err;
-
+        console.log("setting", results);
+         
         res.render('admin/dashboard', {
           user: results.user,
           setting: results.setting,

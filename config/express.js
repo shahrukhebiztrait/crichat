@@ -40,7 +40,7 @@ module.exports = function(app) {
   // mongoose instance connection url connection
   mongoose.Promise = global.Promise;
   console.log("mongo", config.mongo.uri);
-  
+  console.log("mongoDbUrl", config);
   mongoose.connect(config.mongo.uri, {
     useNewUrlParser: true
   }, (err) => {

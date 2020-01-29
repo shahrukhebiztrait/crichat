@@ -13,8 +13,6 @@ var pingInterval = 25 * 1000;
 
 
 module.exports = function (server) {
-
-
   var io = Socket(server, {
     // below are engine.IO options
     pingInterval: pingInterval,

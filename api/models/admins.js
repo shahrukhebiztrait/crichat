@@ -91,7 +91,6 @@ adminSchema
   }, 'Password cannot be blank');
 
 
-
 adminSchema.index({
   username: 'text',
   email: 'text'

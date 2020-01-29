@@ -16,7 +16,7 @@ module.exports = {
 
   // MongoDB connection options
   mongo: {
-    uri: "mongodb://localhost:27017/whatsclone"
+    uri: "mongodb://localhost:27017/whatsclone"  
   },
   seedDB: true
 };

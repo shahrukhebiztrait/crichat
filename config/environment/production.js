@@ -2,7 +2,8 @@
 'use strict';
 const config = require('../config.js');
 const f = require('util').format;
-const url = f('mongodb://%s:%s@%s:27017/%s?authMechanism=%s&authSource=%s&w=1', config.db.username, config.db.password, config.db.serverName,config.db.name, config.db.authMechanism, config.db.name);
+//const url = f('mongodb://%s:%s@%s:27017/%s?authMechanism=%s&authSource=%s&w=1', config.db.username, config.db.password, config.db.serverName,config.db.name, config.db.authMechanism, config.db.name);
+const url = f(process.env.MONGODB_URI);
 
 // Production specific configuration
 // =================================

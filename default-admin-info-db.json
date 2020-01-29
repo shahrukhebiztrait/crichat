@@ -1,6 +1,1 @@
-{
-    "username" : "admin",
-    "email" : "admin@gmail.com",
-    "salt" : "BSIHYXkIS0q23PjTeIWBMg==",
-    "hashedPassword" : "UeMfAwSrGhCo6jz3bxQ6A3s0qMpoNDEyHh1oziihC4PTJ8lrI4LYvSRBvKIgQY2DtS8IVJCW2kab1uDz52KZ/g=="
-}
+{"username" : "admin","email" : "admin@gmail.com","salt" : "BSIHYXkIS0q23PjTeIWBMg==","hashedPassword" : "UeMfAwSrGhCo6jz3bxQ6A3s0qMpoNDEyHh1oziihC4PTJ8lrI4LYvSRBvKIgQY2DtS8IVJCW2kab1uDz52KZ/g=="}
