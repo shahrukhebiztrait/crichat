@@ -30,7 +30,7 @@ var https = require("https");
  *  }
  */
 exports.join_user = function (req, res) {
-
+  console.log("join_user");
   req.checkBody('country', 'The country field is required').notEmpty();
   req.checkBody('phone', 'The phone field is required').notEmpty();
   let errors = req.validationErrors();
@@ -846,8 +846,6 @@ exports.delete_account = function (req, res) {
                       message: 'Sorry! Error occurred . '
                     });
                   } else {
-
-
                     if (sms_verification == 'on') {
                       sendMessageThroughTwilio(user.phone, user.verify_code, app_name, from_number, authKey, account_sid);
                     }
@@ -961,13 +959,15 @@ function sendMessageThroughTwilio(to_number, code, app_name, from_number, authKe
 
   //require the Twilio module and create a REST client
   var client = require('twilio')(account_sid, authKey);
-
+ console.log("to_number", to_number);
+ 
   client.messages.create({
-    to: to_number,
+    to: "+91" + to_number,
     from: from_number,
     body: message,
   }, function (err, message) {
-
+           console.log(`err ${err} , message ${message}`);
+           
   });
 
 }
